@@ -67,7 +67,7 @@ the things I can help you with.
  \nClick on the buttons below to get documentation about specific modules!"""
 
 
-KIGYO_IMG = "https://telegra.ph/file/e5100e06c03767af80023.jpg"
+SAMPATH_IMG = "https://telegra.ph/file/.jpg"
 
 
 IMPORTED = {}
@@ -207,12 +207,12 @@ def start(update: Update, context: CallbackContext):
                         ],
                         [
                             InlineKeyboardButton(
-                                text=gs(chat.id, "support_chat_link_btn"),
-                                url=f"https://t.me/YorktownEagleUnion",
+                                text=gs(chat.id, "MY HERO_link_btn"),
+                                url=f"https://t.me/@ABHI_VILAN",
                             ),
                             InlineKeyboardButton(
-                                text=gs(chat.id, "updates_channel_link_btn"),
-                                url="https://t.me/KigyoUpdates",
+                                text=gs(chat.id, "My Creatir_link_btn"),
+                                url="https://t.me/@ABHI_VILAN",
                             ),
                         ],
                         [
